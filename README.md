@@ -69,11 +69,11 @@ The Random Forest classifier was used as an ensemble learning approach for fraud
 
 It achieved:
 
-* Accuracy: approximately 93.39%
-* Precision: approximately 97.82%
-* Recall: approximately 88.75%
-* F1 Score: approximately 93.06%
-* ROC AUC: approximately 0.987
+* **Accuracy:** approximately 93.39%
+* **Precision:** approximately 97.82%
+* **Recall:** approximately 88.75%
+* **F1 Score:** approximately 93.06%
+* **ROC AUC:** approximately 0.987
 
 ### Multi-Layer Perceptron
 
@@ -81,17 +81,17 @@ A Multi-Layer Perceptron neural network was developed using TensorFlow/Keras.
 
 It achieved:
 
-* Accuracy: approximately 92.87%
-* Precision: approximately 97.41%
-* Recall: approximately 88.09%
-* F1 Score: approximately 92.51%
-* ROC AUC: approximately 0.983
+* **Accuracy:** approximately 92.87%
+* **Precision:** approximately 97.41%
+* **Recall:** approximately 88.09%
+* **F1 Score:** approximately 92.51%
+* **ROC AUC:** approximately 0.983
 
 Overall, the Random Forest model slightly outperformed the MLP model across the main evaluation metrics.
 
 ## Power BI Dashboard
 
-A Power BI dashboard was developed to make the analysis easier to understand and explore.
+An interactive Power BI dashboard was developed to present the analysis and make fraud patterns easier to understand and explore.
 
 The dashboard includes:
 
@@ -106,7 +106,15 @@ The dashboard includes:
 * Fraud-status filtering
 * Transaction amount filtering
 
-The dashboard also includes a detailed reporting page that allows users to inspect individual transaction records and perform manual checks.
+The dashboard also includes a detailed transaction-level reporting page that allows users to inspect individual transactions and perform manual analysis.
+
+### Full Power BI Dashboard File
+
+The complete interactive Power BI dashboard is available through Google Drive:
+
+[**View / Download Power BI Dashboard (.pbix)**](https://drive.google.com/file/d/1d9U1df5v8pXvah2ajRezyoIl1r3zfzxI/view?usp=sharing)
+
+> **Note:** Microsoft Power BI Desktop is required to open and interact with the `.pbix` file.
 
 ## Dashboard Preview
 
@@ -119,7 +127,7 @@ The dashboard also includes a detailed reporting page that allows users to inspe
 ## Repository Structure
 
 ```text
-Fraud_detection_using_ensemble_learning_and_MLP/
+Fraud-detection-using-ensemble-learning-and-MLP/
 │
 ├── README.md
 ├── Fraud_detection_using_ensemble_learning_and_MLP.ipynb
@@ -145,6 +153,6 @@ Fraud_detection_using_ensemble_learning_and_MLP/
 
 ## Key Result
 
-The Random Forest model achieved the strongest overall performance with an F1 score of approximately 93.06%, slightly outperforming the Multi-Layer Perceptron model while maintaining strong precision and recall.
+The Random Forest model achieved the strongest overall performance with an **F1 score of approximately 93.06%**, slightly outperforming the Multi-Layer Perceptron model while maintaining strong precision and recall.
 
-The Power BI dashboard complements the modelling results by presenting fraud trends, transaction activity, and financial indicators in a clear and interactive format.
+The Power BI dashboard complements the machine learning analysis by presenting fraud trends, transaction activity, estimated financial loss, and transaction-level insights through clear and interactive visualisations.
